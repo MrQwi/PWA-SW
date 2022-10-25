@@ -47,3 +47,4 @@ async function networkFirst(request) {
     }
     
 }
+function lok(){ isid.innerHTML='Кэшировано: ' +"<br>"+assetUrls[0]+"<br>"+assetUrls[1]+"<br>"+assetUrls[2]+"<br>"+assetUrls[3]; }

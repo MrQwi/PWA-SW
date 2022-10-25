@@ -14,9 +14,9 @@
 }
 .textoni {
     display:flex;
-    font-size: 7vw;
+    font-size: 5vw;
     flex-flow: row nowrap;
     justify-content: center;
-    margin-top: 20%;
+    margin-top: 5%;
     color: red;
 }
