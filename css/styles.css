@@ -1,0 +1,22 @@
+.batoni {
+    background: none;
+    font-size: 3vw;
+    border-top: none;
+    border-bottom: none;
+    color: blueviolet;
+}
+
+.container {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    justify-content: space-around;
+}
+.textoni {
+    display:flex;
+    font-size: 7vw;
+    flex-flow: row nowrap;
+    justify-content: center;
+    margin-top: 20%;
+    color: red;
+}
