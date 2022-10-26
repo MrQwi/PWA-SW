@@ -12,6 +12,6 @@ window.addEventListener('load', async () => {
     function lol(){ isid.innerHTML='[SW]: register success'; }
     
 }
-function lok(){ isid.innerHTML=' '; }
+
 
 

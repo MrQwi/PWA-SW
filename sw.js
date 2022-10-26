@@ -23,7 +23,7 @@ self.addEventListener("activate", async event => {
 self.addEventListener('fetch', event => {
     const {request}= event
     const url = new URL(request.url)
-    if (url.orign===location.origin) {
+    if (url.origin===location.origin) {
         event.respondWith(cacheFirst(event.request))
     } else {
         event.respondWith(networkFirst(event.request))
