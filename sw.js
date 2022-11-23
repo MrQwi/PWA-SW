@@ -3,6 +3,7 @@ const dynamicCacheName = 'dasha-v1'
 const assetUrls =[
     'index.html',
     '/js/app.js',
+    '/js/facha.js',
     '/css/styles.css',
     '/offline.html'
 ]
@@ -23,7 +24,7 @@ self.addEventListener("activate", async event => {
 self.addEventListener('fetch', event => {
     const {request}= event
     const url = new URL(request.url)
-    if (url.origin===location.origin) {
+     if (url.origin===location.origin) {
         event.respondWith(cacheFirst(event.request))
     } else {
         event.respondWith(networkFirst(event.request))
