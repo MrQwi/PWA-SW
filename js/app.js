@@ -8,10 +8,7 @@ window.addEventListener('load', async () => {
       }
     }
  })
- if ('serviceWorker' in navigator){
-    function lol(){ isid.innerHTML='[SW]: register success'; }
-    
-}
+ 
 
 
 

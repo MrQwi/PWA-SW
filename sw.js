@@ -48,4 +48,17 @@ async function networkFirst(request) {
     }
     
 }
-function lom(){ isid.innerHTML='Кэшировано: ' +"<br>"+assetUrls[0]+"<br>"+assetUrls[1]+"<br>"+assetUrls[2]+"<br>"+assetUrls[3]; }
+if ('serviceWorker' in navigator){
+    function lol(){ 
+      isit.innerHTML=' '
+      isid.innerHTML=`
+        [SW]: register success
+        <br>
+        Кэшировано:
+        <br>
+        ` 
+        + assetUrls[0]+'<br>'+assetUrls[1]+'<br>'+assetUrls[2]+'<br>'+assetUrls[3]+'<br>'+assetUrls[4]
+       
+    }
+    
+}
